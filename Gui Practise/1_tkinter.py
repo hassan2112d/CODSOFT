@@ -1,11 +1,11 @@
 from tkinter import *
 
 #Starting tkinter
-a_root = Tk()
+a = Tk()
 
 #GUI Geometry
 
 
 
 #ending GUI LOgic
-a_root.mainloop()
+a.mainloop()
