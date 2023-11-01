@@ -31,6 +31,14 @@ c.add_command(label="Save", command=func)
 b.add_cascade(label="File",menu=c)
 a.config(menu=b)
 
+
+e = Menu(b)
+e.add_command(label="OPEN",command=func)
+e.add_command(label="aDD",command=func)
+e.add_command(label="HELLO",command=func)
+b.add_cascade(label="EDIT", menu=e)
+a.config(menu=b)
+
 a.mainloop()
 
 
